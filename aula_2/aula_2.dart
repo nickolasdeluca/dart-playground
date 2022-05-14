@@ -4,7 +4,7 @@ class Pessoa {
   String nome;
   double altura;
   double peso;
-  double? imc;
+  double imc = 0;
 
   Pessoa(this.nome, this.altura, this.peso);
 
